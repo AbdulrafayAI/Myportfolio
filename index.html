@@ -748,12 +748,17 @@
       height: 180px;
       background: linear-gradient(135deg, #1a1a2e, #16213e);
       display: flex;
-    
-     
+      align-items: center;
+      justify-content: center;
+      position: relative;
       overflow: hidden;
     }
 
-    
+    .project-img .ml-viz {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
 
     .project-content {
       padding: 1.5rem;
@@ -1068,18 +1073,18 @@
       <div class="hero-visual">
         <div class="photo-container" id="photoContainer">
           <div class="photo-frame" id="photoFrame">
-            <img src="/images/NoteGPT_Image_20260831110404.png"> alt="Abdul Rafay - Python Developer & ML Expert" />
+            <img src="images/NoteGPT_Image_20260831110404.png" alt="Abdul Rafay - Python Developer & ML Expert" />
           </div>
           <div class="floating-badge python">
-            <img src="/images/python.png" alt="Python" />
+            <img src="images/python.png" alt="Python" />
             Python Expert
           </div>
           <div class="floating-badge ml">
-            <img src="/images/machine-learning.png" alt="ml" />
+            <img src="images/machine-learning.png" alt="ml" />
             ML Specialist
           </div>
           <div class="floating-badge ds">
-            <img src="/images/data-science.png" alt="Data Science" />
+            <img src="images/data-science.png" alt="Data Science" />
             Data Science
           </div>
         </div>
@@ -1136,7 +1141,7 @@
       <div class="skills-grid">
         <div class="skill-card reveal">
           <div class="skill-icon">
-            <img src="/images/python.png" alt="Python" />
+            <img src="images/python.png" alt="Python" />
           </div>
           <h3>Python Development</h3>
           <p>Clean, efficient Python code for backend, automation, scripting & production systems.</p>
@@ -1144,7 +1149,7 @@
         </div>
         <div class="skill-card reveal">
           <div class="skill-icon">
-            <img src="/images/machine-learning.png" alt="Machine Learning" />
+            <img src="images/machine-learning.png" alt="Machine Learning" />
           </div>
           <h3>Machine Learning</h3>
           <p>Supervised & unsupervised models, feature engineering, model evaluation & deployment.</p>
@@ -1152,7 +1157,7 @@
         </div>
         <div class="skill-card reveal">
           <div class="skill-icon">
-            <img src="/images/data-science.png
+            <img src="images/data-science.png
             " alt="Data Science" />
           </div>
           <h3>Data Science</h3>
@@ -1161,7 +1166,7 @@
         </div>
         <div class="skill-card reveal">
           <div class="skill-icon">
-            <img src="/images/artificial-intelligence.png" alt="Artificial Intelligence" />
+            <img src="images/artificial-intelligence.png" alt="Artificial Intelligence" />
           </div>
           <h3>Deep Learning / AI</h3>
           <p>Neural nets with TensorFlow / PyTorch — CNNs, RNNs, transformers & transfer learning.</p>
@@ -1169,7 +1174,7 @@
         </div>
         <div class="skill-card reveal">
           <div class="skill-icon">
-            <img src="/images/data-visualization.png" alt="Data Visualization" />
+            <img src="images/data-visualization.png" alt="Data Visualization" />
           </div>
           <h3>Data Visualization</h3>
           <p>Interactive dashboards with Matplotlib, Seaborn, Plotly & Streamlit.</p>
@@ -1177,8 +1182,8 @@
         </div>
         <div class="skill-card reveal">
           <div class="skill-icon">
-            <img src="/images/ai-symbol.png" alt="MLOps" />
-          </div> 
+            <img src="images/ai-symbol.png" alt="MLOps" />
+          </div>
           <h3>MLOps & Tools</h3>
           <p>Scikit-learn, Pandas, NumPy, Git, Docker basics, model versioning & APIs.</p>
           <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
@@ -1198,17 +1203,16 @@
       <div class="projects-grid">
         <div class="project-card reveal">
           <div class="project-img">
-           <img src="/images/ChatGPT Image Sep 3, 2026, 02_49_57 PM.png" alt="" class="
-            w-full w-full object-cover">
+            <img src="images/speechlab-tts.png" alt="SpeechLab-TTS" style="width:100%;height:100%;object-fit:cover;display:block;" />
           </div>
           <div class="project-content">
             <div class="project-tags">
-             
-              <span class="tag">machine learning</span>
+              <span class="tag">TTS</span>
+              <span class="tag">Deep Learning</span>
               <span class="tag">Python</span>
             </div>
-            <h3>Image Classification System</h3>
-            <p>Deep CNN model that classifies images with 94%+ accuracy. Built with TensorFlow & deployed via Flask API.</p>
+            <h3>SpeechLab-TTS</h3>
+            <p>Text-to-speech system that converts written text into natural-sounding speech using deep learning models for high-quality voice synthesis.</p>
             <div class="project-links">
               <a href="#">View Project →</a>
               <a href="#">GitHub</a>
@@ -1290,21 +1294,21 @@
               <span class="icon">✉️</span>
               <div>
                 <strong>Email</strong><br>
-                <span style="color:var(--text-secondary);font-size:0.9rem">itsrafay48@gmail.com</span>
+                <span style="color:var(--text-secondary);font-size:0.9rem">abdulrafay@example.com</span>
               </div>
             </a>
-            <a href="https://github.com/AbdulrafayAI" target="_blank" class="contact-link">
+            <a href="https://github.com" target="_blank" class="contact-link">
               <span class="icon">💻</span>
               <div>
                 <strong>GitHub</strong><br>
-                <span style="color:var(--text-secondary);font-size:0.9rem">https://github.com/AbdulrafayAI</span>
+                <span style="color:var(--text-secondary);font-size:0.9rem">github.com/abdulrafay</span>
               </div>
             </a>
             <a href="https://linkedin.com" target="_blank" class="contact-link">
               <span class="icon">🔗</span>
               <div>
                 <strong>LinkedIn</strong><br>
-                <span style="color:var(--text-secondary);font-size:0.9rem">https://www.linkedin.com/in/abdul-rafay-ai1/</span>
+                <span style="color:var(--text-secondary);font-size:0.9rem">linkedin.com/in/abdulrafay</span>
               </div>
             </a>
           </div>
